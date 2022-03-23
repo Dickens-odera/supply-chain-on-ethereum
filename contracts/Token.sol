@@ -6,7 +6,7 @@ import '@openzeppelin/contracts/token/ERC20/ERC20.sol';
 
 contract Token is Ownable, ERC20 {  
 
-  constructor(uint256 initialSupply) ERC20("Supp Token","SUP") public {
+  constructor(uint256 initialSupply) ERC20("Supp Token","SUP") {
     _mint(msg.sender, initialSupply * 10 ** decimals());
   }
 }
