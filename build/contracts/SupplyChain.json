@@ -1,0 +1,191 @@
+{
+  "contractName": "SupplyChain",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/D/Dickens/Programming/Blockchain/Projects/Personal/Linkedin Learn Projects/ethereum_supply_chain/contracts/SupplyChain.sol\":\"SupplyChain\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/Dickens/Programming/Blockchain/Projects/Personal/Linkedin Learn Projects/ethereum_supply_chain/contracts/SupplyChain.sol\":{\"keccak256\":\"0x21c7af8ca74e526527edca90895ffc0f3b8987414d71e13439ff35c2e8c34e81\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://474c6d22b4d0ec965a6b02fdbc0b0a1409838856e33d1150edb3d0200fd9639b\",\"dweb:/ipfs/QmRqVh66Ds22bYxcCm25NMqj3fe5V4VTDNf9d4MqCKvHYz\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220024834641aedfed5187eb167d22a54d37eeed623e99b89c9edb21dc31662c66f64736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220024834641aedfed5187eb167d22a54d37eeed623e99b89c9edb21dc31662c66f64736f6c634300080d0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "57:53:1:-:0;;;82:26;;;;;;;;;;57:53;;;;;;",
+  "deployedSourceMap": "57:53:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract SupplyChain {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "D:/Dickens/Programming/Blockchain/Projects/Personal/Linkedin Learn Projects/ethereum_supply_chain/contracts/SupplyChain.sol",
+  "ast": {
+    "absolutePath": "/D/Dickens/Programming/Blockchain/Projects/Personal/Linkedin Learn Projects/ethereum_supply_chain/contracts/SupplyChain.sol",
+    "exportedSymbols": {
+      "SupplyChain": [
+        39
+      ]
+    },
+    "id": 40,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "SupplyChain",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 39,
+        "linearizedBaseContracts": [
+          39
+        ],
+        "name": "SupplyChain",
+        "nameLocation": "66:11:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 37,
+              "nodeType": "Block",
+              "src": "103:5:1",
+              "statements": []
+            },
+            "id": 38,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 35,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "93:2:1"
+            },
+            "returnParameters": {
+              "id": 36,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "103:0:1"
+            },
+            "scope": 39,
+            "src": "82:26:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 40,
+        "src": "57:53:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:79:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/Dickens/Programming/Blockchain/Projects/Personal/Linkedin Learn Projects/ethereum_supply_chain/contracts/SupplyChain.sol",
+    "exportedSymbols": {
+      "SupplyChain": [
+        39
+      ]
+    },
+    "id": 40,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "SupplyChain",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 39,
+        "linearizedBaseContracts": [
+          39
+        ],
+        "name": "SupplyChain",
+        "nameLocation": "66:11:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 37,
+              "nodeType": "Block",
+              "src": "103:5:1",
+              "statements": []
+            },
+            "id": 38,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 35,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "93:2:1"
+            },
+            "returnParameters": {
+              "id": 36,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "103:0:1"
+            },
+            "scope": 39,
+            "src": "82:26:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 40,
+        "src": "57:53:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:79:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2022-03-23T01:11:30.425Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
